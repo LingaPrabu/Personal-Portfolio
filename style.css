@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background: linear-gradient(193deg, #00cfff 0%, #0b00ff 100%);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 10vh;
+    z-index: 3;
+}
+#navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    padding: 15px;
+    background: radial-gradient(#ff0033 0%, #000000 100%);
+    border-radius: 20px;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+#navbar a:visited{
+    color: #fff;  
+}
+#navbar a{
+    color: #fff;
+}
+#navbar a:hover{
+    color: #fffd00;
+}
+#welcome-section{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(168deg, #000 0%, #493f3f 100%);
+    padding-top: 10vh;
+    width: 100%;
+    height: 90vh;
+    font-family: 'Roboto', sans-serif;
+}
+#img{
+    position: absolute;
+    z-index: 0;
+    top: 10vh;
+    left: 0;
+    height: 90vh;
+}
+.quote{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 30px 10px 10px auto;
+    width: 450px;
+    background-color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 20px;
+    z-index: 2;
+}
+.quote p{
+    text-align: right;
+}
+.title{
+    font-weight: 900;
+    font-size: 120px;
+    color: #fff;
+    text-align: center;
+    z-index: 1;
+}
+#projects{
+    background: linear-gradient(220deg, #48fa02 0%, #00d2ff 100%);
+}
+.project-tile{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 25px 25px;
+        grid-template-areas:
+          "Tribute-Page Survey-Form"
+          "Technical-Documentation Product-Landing";
+      }
+
+      
+
+@media (max-width:800px){
+    .nav-links{
+        margin: 0.7vmax;
+        padding: 0.7vmax;
+        border-radius: 2vmax;
+    }
+    #navbar{
+        margin: 1.5vmax 0 1.5vmax 0;
+    }
+    .header{
+        height: 10vmax;
+    }
+    .title{
+        text-align: right;
+        font-size: 10vmax;
+    }
+    .quote{
+        padding: 1vmax;
+        margin: 1vmax 4vmax 1vmax auto;
+        width: 33vmax;
+        border-radius: 2vmax;
+        font-size: 3vmax;
+    }
+    #img{
+        display: flex;
+        top: 10vh;
+        width: 50vmax;
+        height: 90vh;
+    }
+}
