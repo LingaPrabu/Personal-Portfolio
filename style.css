@@ -180,7 +180,7 @@
         gap: 0.1vmax 1vmax;
     }
     #title-work,#title-contact{
-        padding-top: 10vh;
+        padding-top: 12vh;
         font-size: 10vmax;
         line-height: 14vmax;
     }
@@ -217,7 +217,7 @@
     border-radius: 50%;
     width: 20vmax;
     height: 20vmax;
-    margin: 5vh auto 5vh auto;
+    margin: 4vh auto 4vh auto;
     padding: 0.5vmax;
     border:0.5vmax solid transparent;
     background: #7f00ff;
@@ -229,7 +229,7 @@
     justify-content: space-around;
 }
 .contact-links a{
-    margin: 2vh;
+    margin: 1.5vh;
     text-decoration: none;
     color: #fff;
     font-family: 'Roboto', sans-serif;
@@ -246,5 +246,30 @@
     .contact-img{
         width: 25vmax;
         height:25vmax;
+    }
+}
+/* footer */
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vh;
+    width: 100%;
+    height: 5vh;
+    background: linear-gradient(193deg, #00cfff 0%, #0b00ff 100%);
+}
+.footer p{
+    font-family: 'Mate SC', serif;
+    color: #fff;
+    font-weight: 900;
+    font-size: 2vmax;
+}
+@media (max-width:800px){
+    .footer p{
+        font-size: 3vmax;
+    }
+    .footer{
+        height: 4vmax;
     }
 }
