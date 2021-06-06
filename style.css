@@ -108,6 +108,7 @@
 #projects{
     background: linear-gradient(167deg, #5fca07 0%, #66ff00 100%);
     box-sizing: border-box;
+    width: 100vw;
 }
 #title-work,#title-contact{
     font-family: 'Roboto', sans-serif;
