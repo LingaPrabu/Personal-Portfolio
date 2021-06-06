@@ -95,7 +95,7 @@ body{
     }
     .quote{
         padding: 1vmax;
-        margin: 1vmax 4vmax 1vmax auto;
+        margin: 20vmax 4vmax 1vmax auto;
         width: 33vmax;
         border-radius: 2vmax;
         font-size: 3vmax;
@@ -178,7 +178,7 @@ body{
           "Survey-Form"
           "Technical-Documentation"
           "Product-Landing";
-        margin: 2vh 0.5vh 1vh 0.5vh;
+        margin: 2vh auto 1vh auto;
         gap: 0.1vmax 1vmax;
     }
     #title-work,#title-contact{
