@@ -74,6 +74,38 @@
     text-align: center;
     z-index: 1;
 }
+
+@media (max-width:800px){
+    .nav-links{
+        margin: 0.7vmax;
+        padding: 0.7vmax;
+        border-radius: 2vmax;
+    }
+    #navbar{
+        margin: 1.5vmax 0 1.5vmax 0;
+    }
+    .header{
+        height: 10vmax;
+    }
+    .title{
+        text-align: right;
+        font-size: 10vmax;
+    }
+    .quote{
+        padding: 1vmax;
+        margin: 1vmax 4vmax 1vmax auto;
+        width: 33vmax;
+        border-radius: 2vmax;
+        font-size: 3vmax;
+    }
+    #img{
+        display: flex;
+        top: 10vh;
+        width: 50vmax;
+        height: 90vh;
+    }
+}
+
 #projects{
     background: linear-gradient(167deg, #5fca07 0%, #66ff00 100%);
     box-sizing: border-box;
@@ -136,37 +168,7 @@
     border-radius: 40px;
 }
 
-      
-
 @media (max-width:800px){
-    .nav-links{
-        margin: 0.7vmax;
-        padding: 0.7vmax;
-        border-radius: 2vmax;
-    }
-    #navbar{
-        margin: 1.5vmax 0 1.5vmax 0;
-    }
-    .header{
-        height: 10vmax;
-    }
-    .title{
-        text-align: right;
-        font-size: 10vmax;
-    }
-    .quote{
-        padding: 1vmax;
-        margin: 1vmax 4vmax 1vmax auto;
-        width: 33vmax;
-        border-radius: 2vmax;
-        font-size: 3vmax;
-    }
-    #img{
-        display: flex;
-        top: 10vh;
-        width: 50vmax;
-        height: 90vh;
-    }
     .project-tile{
         grid-template-areas:
           "Tribute-Page"
