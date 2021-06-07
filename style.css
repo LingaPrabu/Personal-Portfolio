@@ -178,7 +178,7 @@ body{
           "Survey-Form"
           "Technical-Documentation"
           "Product-Landing";
-        margin: 2vh auto 1vh auto;
+        margin: 2vh 1.8vmax 1vh 1.2vmax;
         gap: 0.1vmax 1vmax;
     }
     #title-work,#title-contact{
